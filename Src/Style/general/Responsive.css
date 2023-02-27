@@ -1,0 +1,49 @@
+@media only screen and (max-width:850px) {
+    /*
+On Desktop screen:
+NavBar-display is enable;
+Dropdown- display:none;
+Dropdown content-display:none;
+
+On Mobile screen:
+NavBar-display is disable;
+Dropdown-display:block;
+Dropdown content-display:block;
+*/
+body{
+    flex-wrap: wrap;
+}
+#nav-links{
+    display: none;
+}
+.section1{
+    flex-wrap: wrap;
+}
+.section2{
+    flex-wrap: wrap;
+}
+.section3{
+    display: block;
+}
+.section4{
+    flex-wrap: wrap;
+}
+.section5{
+    display: block;
+}
+.section6{
+    flex-wrap: wrap;
+}
+.section7{
+    flex-wrap: wrap;
+}
+.section8{
+    flex-wrap: wrap;
+}
+.section9{
+    flex-wrap: wrap;
+}
+#footerlogo{
+    display: none;
+}
+}

@@ -1,0 +1,82 @@
+@import url(../general/Font.css);
+header{
+    height: 107px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.ham{
+    display: none;
+}
+.ham_content{
+    display: none;
+}
+#header-content{
+    display: flex;
+    margin-left: 31px;
+    align-items: center;
+}
+#header-icon{
+    margin-right: 8px;
+    align-items: center;
+}
+#logo{
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+nav ul{
+    display: flex; 
+    margin-right: 13px;
+}
+nav ul li a{
+    font-family: "Roboto",sans-serif;
+    margin: 0px 20px;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    line-height: 21px;
+}
+nav ul li .c{
+    font-size: 18px;
+    text-align: center;
+    color:#71A894;
+    font-weight: 800;
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 21px;
+}
+
+footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 126px 56px 40px 56px;
+    align-items: center;
+    
+}
+#footerlogo{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+#footernav{
+    display: flex;
+}
+#footernav li a{
+    margin: 0px 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+#green a{
+    color: #71A894;
+}
